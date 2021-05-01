@@ -1,10 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-body {
-  background: #222;
-  color: #eee;
+.message {
+  font-weight: 700;
+  font-size: 18px;
 }
